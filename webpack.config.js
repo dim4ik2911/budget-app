@@ -26,6 +26,8 @@ module.exports = {
     static: path.join(__dirname, "public"),
     compress: true,
     port: 8080,
+    // this attribute means we are going to handle routing through client side
+    historyApiFallback: true,
   },
 };
 
